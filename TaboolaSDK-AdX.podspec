@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'TaboolaSDK-AdX'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'TaboolaSDK adapter for AdX'
   s.description      = 'The Taboola Mobile Ads SDK allows you to maximize monetization for your iOS and Android apps with Taboola ads.'
 
   s.homepage         = 'https://www.taboola.com'
   s.license          = { :type => 'Taboola Mobile SDK License', :file => 'LICENSE' }
   s.author           = { 'Taboola' => 'mobile-sdk@taboola.com' }
-  s.source           = { :git => 'https://github.com/taboola/ios-sdk-adx-adapter.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/taboola/ios-adx.git', :tag => s.version.to_s }
 
   s.platform         = :ios, '12.0'
   s.swift_versions   = ['5.0']
