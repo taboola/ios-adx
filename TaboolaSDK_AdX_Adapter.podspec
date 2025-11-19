@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TaboolaSDK_AdX_Adapter'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'TaboolaSDK adapter for AdX'
   s.description      = 'The Taboola Mobile Ads SDK allows you to maximize monetization for your iOS and Android apps with Taboola ads.'
 
@@ -17,4 +17,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'TBLAdxPlugin/**/*.h'
 
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.0'
+  s.deprecated = true
+  s.deprecated_in_favor_of = 'TaboolaSDK-AdX'
 end
