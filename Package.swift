@@ -2,15 +2,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "TaboolaSDK_AdX_Adapter",
+    name: "TaboolaSDK-AdX",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "TaboolaSDK_AdX_Adapter",
+            name: "TaboolaSDK-AdX",
             type: .static,
-            targets: ["TaboolaSDK_AdX_Adapter"]
+            targets: ["TaboolaSDK-AdX"]
         )
     ],
     dependencies: [
@@ -21,7 +21,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "TaboolaSDK_AdX_Adapter",
+            name: "TaboolaSDK-AdX",
             dependencies: [
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
             ],
